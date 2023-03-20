@@ -1,0 +1,40 @@
+// .container{
+//   // margin:auto
+//   // text-align: center;
+//   // justify-content: center;
+//   // margin-right: auto;
+// }
+
+.example-form {
+  min-width: 50px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+form{
+  margin-top: 2vh !important;
+  margin: auto;
+}
+
+mat-card-header{
+  color: indigo ;
+  font-size: large;
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+mat-card{
+height: 50%;
+margin: auto;
+width: 60%;
+// width: 50%;
+margin-top: 10%;
+border: solid gray;
+// background-color: azure;
+}
