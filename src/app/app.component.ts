@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import * as web3 from '@solana/web3.js';
+import { Connection, PublicKey, Transaction, TransactionInstruction } from '@solana/web3.js';
 
 @Component({
   selector: 'app-root',
